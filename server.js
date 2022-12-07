@@ -8,7 +8,7 @@ import routers from './routes/routers.js'
 
 const app = express()
 const PORT = process.env.PORT || 8000
-const URL = process.env.MONGODB_URI || `mongodb+srv://root:root@cluster0.kn9qet1.mongodb.net/E-Com-Flip-Cart?retryWrites=true&w=majority`
+const URL = process.env.MONGODB_URI || "mongodb+srv://root:root@cluster0.kn9qet1.mongodb.net/E-Com-Flip-Cart?retryWrites=true&w=majority"
 
 
 app.use(cors())
