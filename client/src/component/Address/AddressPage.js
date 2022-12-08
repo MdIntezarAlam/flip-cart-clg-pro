@@ -2,8 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Boxs, Boxss } from '../../styles/Address/Address'
 
-const AddressPage = ({ forms }) => {
-    console.log(forms)
+const AddressPage = () => {
     return (
         <Boxs>
             <h1 style={{ color: "#000", textAlign: 'center' }}>THANKYOU FOR USING MY APP 🥰</h1>

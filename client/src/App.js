@@ -21,8 +21,8 @@ const App = () => {
                         <Route path='/' element={<Home />} />
                         <Route path='/product/:id' element={<DetailsViewPage />} />
                         <Route path='/cart' element={<Cart />} />
-                        <Route path="/addresspage" element={<AddressPage />} />
                         <Route path="/address" element={<Address />} />
+                        <Route path="/addresspage" element={<AddressPage />} />
                     </Routes>
                 </Box>
             </BrowserRouter>
